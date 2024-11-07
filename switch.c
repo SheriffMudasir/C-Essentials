@@ -3,7 +3,8 @@
 int main()
 {
  int i;
- printf("Enter a between 1 to 4\n");
+ printf("Enter a between 1 to 4:\n");
+ fflush(stdout);
  scanf("%d", &i);
  switch(i){
   case 1:
