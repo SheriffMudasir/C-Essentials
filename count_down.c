@@ -14,7 +14,7 @@ int main()
     continue;
    printf("%d\n", number);
    sleep(1);
-   if (number < 1)
+   if (number == 1)
     break;
  }
  return 0;
